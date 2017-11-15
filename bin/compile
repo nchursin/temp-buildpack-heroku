@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+export PATH="$BUILD_DIR/node_modules/accusoft-node/bin":$PATH
+
+node $1/app.js
